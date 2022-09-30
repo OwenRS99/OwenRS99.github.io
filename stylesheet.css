@@ -3,15 +3,22 @@ body{
     padding: 0;
 }
 
-.container{
-    background-color: grey;
-    margin: 0%;
+h2{
+    color: white;
 }
 
-.flex-container{
+.info-container{
+    background-color: #1F2937;
+    margin: 0%;
+    height: 500px;
+}
+
+.heading-container{
     display: flex;
 }
 
-.flex-container .div{
+.heading-container > h3{
     flex: 1;
+    gap: 1px;
 }
+
