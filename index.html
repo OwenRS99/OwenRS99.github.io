@@ -1,21 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Owen's Portfolio</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OwenRS99 Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <div class="info-container">
-        <div class="heading-container">
-            <h2><strong>Header Logo</strong></h2>
-            <h3>header link one</h3>
-            <h3>header link two</h3>
-            <h3>header link three</h3>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">OwenRS99 Portfolio</div>
+            <ul class="nav">
+                <li>
+                    <a href="#About Me" >About me</a>
+                    
+                </li>
+                <li>
+                    <a href="#Projects">Projects</a>
+                    
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                    
+                </li>
+            </ul>
         </div>
-    </div>
-    <div class="experience-container"></div>
-    </div>
-    
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div>
+                <h1 id="About Me"style="margin-top: 20px; margin-left: 52% ;">About Me</h1>
+                <p> My name is Owen, I am currently working as a IT Technican. My passion has always been software development, from attending college
+                    to persuing it in my spare time, I love the challenge it brings along with the satisfaction of building something from nothing.
+                    My aim is to carry on developing the current programming skills I have and hopefully achiveing a job within the field.
+                </p>
+                <h4 style="margin-top: 40px;">Core Skills</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Swift</li>
+                </ul>
+            </div>
+            <img src="./images/portrait.png" class="portrait" alt="portrait-image">
+        </div>
+    </header>
+    <section class="boxes">
+        <h1 id="Projects">Projects</h1>
+        <div class="container">
+            <div class="box">
+                <h2>Weather Project</h2>
+                <img src="./images/clima.png" alt="HTML-Logo">
+                <p> In this project I designed an app that showed you the current weather for your location using an openapi.
+                </p>
+                <a href="https://github.com">View Project</a>
+            </div>
+            <div class="box">
+                <h2>Rock Paper Scissors</h2>
+                <img src="./images/paper.png" alt="HTML-Logo">
+                <p>Within this project i was tasked with creating a website in which you could play Rock Paper Scissors.
+                </p>
+                <a href="https://github.com">View Project</a>
+            </div>
+            <div class="box">
+                <h2>Calculator</h2>
+                <img src="./images/calculator.png" alt="HTML-Logo">
+                <p>My latest project i was able to create a calculator using HTML, CSS and JS. 
+                </p>
+                <a href="https://github.com">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container">
+            <div class="information">
+            <h1 id="Contact">Contact</h1>
+            <a href="https://uk.linkedin.com/in/owen-swinn-4a6212186?trk=people-guest_people_search-card">
+                <img src="./images/linkedin.png" alt="linkedin-logo">
+            </a>
+            <a href="mailto:owenrswinn@gmail.com">
+                <img src="./images/gmail.png" alt="email-logo">
+            </a>
+            <a href="https://github.com/OwenRS99">
+                <img src="./images/github.png" alt="github-logo">
+            </a>
+        </div>
+               <p>Website created by Owen (WIP)</p>
+        </div>
+       
+    </section>
 </body>
 </html>
